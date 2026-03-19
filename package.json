@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build",
-    "outputDirectory": "dist",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
