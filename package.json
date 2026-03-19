@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run build",
-     "outputDirectory": "dist",
+    "outputDirectory": "dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
