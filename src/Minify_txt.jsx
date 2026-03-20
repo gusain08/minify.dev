@@ -25,7 +25,7 @@ const minifyJS = (js) =>
 const MINIFIERS = { html: minifyHTML, css: minifyCSS, js: minifyJS };
 const LABELS = { html: "HTML", css: "CSS", js: "JavaScript" };
 const PLACEHOLDERS = {
-  html: `<div class="container">\n  <h1>  Hello World  </h1>\n  <!-- comment -->\n</div>`,
+  html: `<div class="container">\n  <h1>  Hello World  </h1>\n  n</div>`,
   css: `.container {\n  display : flex ;\n  /* layout */\n  gap : 20px ;\n}`,
   js: `// greet user\nfunction greet( name ) {\n  return "Hello, " + name;\n}`,
 };
